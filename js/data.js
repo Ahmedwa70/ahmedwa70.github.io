@@ -400,18 +400,32 @@ const CV_DATA = {
   achievements: [
     {
       id: "ach1", icon: "content",
-      title: { en: "Author, «Teacher's Compass» Training Package", ar: "مؤلّف حقيبة «بوصلة المعلّم» التدريبية" },
+      title: { en: "Author, «Teacher's Compass» Training Package", ar: "مؤلّف حقيبة «بوصلة المعلّم» التدريبية", zh: "《教师指南针》培训包作者", es: "Autor del paquete de formación «La Brújula del Docente»", fr: "Auteur du programme de formation « La Boussole de l'Enseignant »", tr: "«Öğretmenin Pusulası» Eğitim Paketinin Yazarı", ko: "«교사의 나침반» 연수 패키지 저자", ja: "研修パッケージ『教師のコンパス』著者", id: "Penulis Paket Pelatihan «Kompas Guru»" },
       description: {
         en: "A ten-unit professional training package for teachers of Arabic to non-native speakers, written from real classroom practice and drawing on more than ten years of experience, and addressed to teachers at every stage, from their first lesson onward.",
-        ar: "حقيبة تدريبية مهنية من عشر وحدات لمعلّمي العربية للناطقين بغيرها، مؤلَّفة من واقع الممارسة الصفية وبناءً على خبرة تمتدّ لأكثر من عشر سنوات، وتخاطب المعلّم في كل مراحله من درسه الأول فصاعدًا."
+        ar: "حقيبة تدريبية مهنية من عشر وحدات لمعلّمي العربية للناطقين بغيرها، مؤلَّفة من واقع الممارسة الصفية وبناءً على خبرة تمتدّ لأكثر من عشر سنوات، وتخاطب المعلّم في كل مراحله من درسه الأول فصاعدًا.",
+        zh: "一套面向非母语阿拉伯语教师的十单元专业培训包，源于真实的课堂实践，并建立在十余年教学经验之上，适用于从第一堂课起各个阶段的教师。",
+        es: "Un paquete de formación profesional de diez unidades para profesores de árabe para no nativos, escrito desde la práctica real en el aula y apoyado en más de diez años de experiencia, dirigido a docentes en todas las etapas, desde su primera clase en adelante.",
+        fr: "Un programme de formation professionnelle en dix unités destiné aux enseignants d'arabe pour non-natifs, écrit à partir de la pratique réelle en classe et fort de plus de dix ans d'expérience, adressé aux enseignants à toutes les étapes, dès leur premier cours.",
+        tr: "Ana dili Arapça olmayanlara Arapça öğreten öğretmenler için, gerçek sınıf pratiğinden yazılmış ve on yılı aşkın deneyime dayanan, ilk dersinden itibaren her aşamadaki öğretmene hitap eden on ünitelik profesyonel eğitim paketi.",
+        ko: "비원어민 대상 아랍어 교사를 위한 10개 단원의 전문 연수 패키지로, 실제 교실 경험을 바탕으로 10년 이상의 경력을 담아 집필되었으며, 첫 수업부터 모든 단계의 교사에게 맞춘 내용입니다.",
+        ja: "非母語話者向けアラビア語教師のための全10ユニットの専門研修パッケージ。実際の教室実践から執筆され、10年以上の経験に基づいており、初めての授業からあらゆる段階の教師に向けた内容です。",
+        id: "Paket pelatihan profesional sepuluh unit untuk guru bahasa Arab bagi penutur non-native, ditulis dari praktik nyata di kelas dan berdasarkan pengalaman lebih dari sepuluh tahun, ditujukan bagi guru di semua tahap, sejak pelajaran pertama mereka."
       }
     },
     {
       id: "ach3", icon: "system",
-      title: { en: "Designer of Interactive Lesson Materials", ar: "مصمّم مواد ودروس تفاعلية" },
+      title: { en: "Designer of Interactive Lesson Materials", ar: "مصمّم مواد ودروس تفاعلية", zh: "互动课程材料设计者", es: "Diseñador de materiales didácticos interactivos", fr: "Concepteur de supports de cours interactifs", tr: "Etkileşimli Ders Materyalleri Tasarımcısı", ko: "상호작용 수업 자료 설계자", ja: "インタラクティブ教材デザイナー", id: "Perancang Materi Pelajaran Interaktif" },
       description: {
         en: "Design and production of interactive listening and conversation lessons, lesson videos, and student cards, used in his own classes with beginning learners.",
-        ar: "تصميم وإنتاج دروس استماع ومحادثة تفاعلية ومقاطع مرئية تعليمية وبطاقات طالب، تُستخدم فعليًا في صفوفه مع المتعلمين المبتدئين."
+        ar: "تصميم وإنتاج دروس استماع ومحادثة تفاعلية ومقاطع مرئية تعليمية وبطاقات طالب، تُستخدم فعليًا في صفوفه مع المتعلمين المبتدئين.",
+        zh: "设计与制作互动式听力与会话课程、课程视频和学生卡片，并实际用于他面向初学者的课堂。",
+        es: "Diseño y producción de lecciones interactivas de comprensión auditiva y conversación, videos didácticos y fichas para estudiantes, utilizados en sus propias clases con alumnos principiantes.",
+        fr: "Conception et production de leçons interactives d'écoute et de conversation, de vidéos pédagogiques et de fiches pour étudiants, utilisées dans ses propres classes avec des apprenants débutants.",
+        tr: "Kendi sınıflarında başlangıç düzeyindeki öğrencilerle kullandığı etkileşimli dinleme ve konuşma dersleri, ders videoları ve öğrenci kartlarının tasarımı ve üretimi.",
+        ko: "초급 학습자 대상 자신의 수업에서 활용하는 상호작용형 듣기·회화 수업, 수업 영상, 학생 카드의 설계 및 제작.",
+        ja: "初級学習者向けの自身の授業で使用する、インタラクティブなリスニング・会話レッスン、レッスン動画、学生用カードの設計と制作。",
+        id: "Perancangan dan produksi pelajaran menyimak dan percakapan interaktif, video pelajaran, dan kartu siswa, yang digunakan dalam kelasnya sendiri bersama pelajar pemula."
       }
     }
   ],
@@ -460,42 +474,42 @@ const CV_DATA = {
           "将科技融入语言学习活动。"
         ],
         es: [
-          "Enseñanza de las destrezas del árabe: expresión oral, comprensión auditiva, lectura y escritura.",
+          "Enseñanza de las destrezas del árabe: comprensión auditiva, expresión oral, lectura y escritura.",
           "Diseño de actividades de aula que fomentan la comunicación y el uso práctico del idioma.",
           "Elaboración de materiales didácticos adaptados a las necesidades y niveles de los estudiantes.",
           "Apoyo a estudiantes de orígenes culturales y lingüísticos diversos.",
           "Integración de la tecnología en las actividades de aprendizaje del idioma."
         ],
         fr: [
-          "Enseignement des compétences en arabe : expression orale, compréhension, lecture et écriture.",
+          "Enseignement des compétences en arabe : compréhension orale, expression orale, lecture et écriture.",
           "Conception d'activités de classe favorisant la communication et l'usage pratique de la langue.",
           "Élaboration de supports pédagogiques adaptés aux besoins et niveaux des apprenants.",
           "Accompagnement d'étudiants d'origines culturelles et linguistiques variées.",
           "Intégration de la technologie dans les activités d'apprentissage linguistique."
         ],
         tr: [
-          "Arapça konuşma, dinleme, okuma ve yazma becerilerinin öğretimi.",
+          "Arapça dinleme, konuşma, okuma ve yazma becerilerinin öğretimi.",
           "İletişimi ve dilin pratik kullanımını teşvik eden sınıf içi etkinlikler tasarlama.",
           "Öğrencilerin ihtiyaç ve seviyelerine uygun eğitim materyalleri hazırlama.",
           "Farklı kültürel ve dilsel geçmişlere sahip öğrencilere destek olma.",
           "Dil öğrenme etkinliklerine teknolojiyi entegre etme."
         ],
         ko: [
-          "말하기, 듣기, 읽기, 쓰기 등 아랍어 능력 교육.",
+          "듣기, 말하기, 읽기, 쓰기 등 아랍어 능력 교육.",
           "소통과 실제적인 언어 사용을 장려하는 수업 활동 설계.",
           "학습자의 필요와 수준에 맞는 교육 자료 제작.",
           "다양한 문화적·언어적 배경을 가진 학생 지원.",
           "언어 학습 활동에 기술을 접목."
         ],
         ja: [
-          "話す・聞く・読む・書くというアラビア語の技能指導。",
+          "聞く・話す・読む・書くというアラビア語の技能指導。",
           "コミュニケーションと実践的な言語使用を促す授業活動の設計。",
           "学習者のニーズと習熟度に合わせた教材の作成。",
           "多様な文化的・言語的背景を持つ学生へのサポート。",
           "言語学習活動へのテクノロジーの統合。"
         ],
         id: [
-          "Mengajarkan keterampilan bahasa Arab — berbicara, menyimak, membaca, dan menulis.",
+          "Mengajarkan keterampilan bahasa Arab — menyimak, berbicara, membaca, dan menulis.",
           "Merancang aktivitas kelas yang mendorong komunikasi dan penggunaan bahasa secara praktis.",
           "Menyusun materi pembelajaran yang disesuaikan dengan kebutuhan dan tingkat kemampuan pelajar.",
           "Mendukung siswa dari latar belakang budaya dan bahasa yang beragam.",
@@ -577,13 +591,13 @@ const CV_DATA = {
       summary: {
         en: "Provided private Arabic language instruction for young learners, focusing on the four language skills and on building a strong foundation in reading, writing, and communication through one-to-one lessons paced to each learner.",
         ar: "قدّمت دروسًا خصوصية في اللغة العربية لمتعلّمين صغار السنّ، مع التركيز على المهارات اللغوية الأربع وبناء أساس متين في القراءة والكتابة والتواصل، من خلال دروس فردية تراعي وتيرة كلّ متعلّم.",
-        zh: "在埃及阿里什为年幼学习者提供阿拉伯语私人教学，通过个性化、按学习者节奏进行的课程，帮助其打下扎实的读写与沟通基础。",
-        es: "Impartió clases particulares de árabe a alumnos jóvenes en Al-Arish, Egipto, centradas en desarrollar una base sólida de alfabetización y comunicación mediante lecciones personalizadas y adaptadas al ritmo de cada estudiante.",
-        fr: "A dispensé des cours particuliers d'arabe à de jeunes apprenants à Al-Arish, en Égypte, en mettant l'accent sur la construction de bases solides en lecture, écriture et communication grâce à des leçons personnalisées, au rythme de chaque élève.",
-        tr: "Mısır'ın El-Ariş kentinde küçük yaştaki öğrencilere özel Arapça dersleri verdi; kişiselleştirilmiş ve öğrencinin kendi hızında ilerlediği derslerle güçlü bir okuma-yazma ve iletişim temeli oluşturmaya odaklandı.",
-        ko: "이집트 알아리시에서 어린 학습자를 대상으로 아랍어 개인 지도를 진행했으며, 학습자 개개인의 속도에 맞춘 맞춤형 수업을 통해 탄탄한 읽기·쓰기 및 의사소통 기초를 다지는 데 주력했습니다.",
-        ja: "エジプト・アル＝アリーシュにて、低年齢の学習者を対象にアラビア語の個人指導を実施。学習者一人ひとりのペースに合わせた個別レッスンを通じて、読み書きとコミュニケーションの確かな基礎力の育成に注力した。",
-        id: "Memberikan les privat bahasa Arab untuk pelajar usia dini di Al-Arish, Mesir, dengan fokus membangun dasar literasi dan komunikasi yang kuat melalui pelajaran yang dipersonalisasi sesuai kecepatan masing-masing pelajar."
+        zh: "为年幼学习者提供阿拉伯语私人教学，注重四项语言技能，通过按每位学习者节奏进行的一对一课程，帮助其打下扎实的阅读、写作与沟通基础。",
+        es: "Impartió clases particulares de árabe a alumnos jóvenes, centradas en las cuatro destrezas lingüísticas y en construir una base sólida de lectura, escritura y comunicación mediante lecciones individuales adaptadas al ritmo de cada estudiante.",
+        fr: "A dispensé des cours particuliers d'arabe à de jeunes apprenants, en mettant l'accent sur les quatre compétences linguistiques et sur la construction de bases solides en lecture, écriture et communication, grâce à des leçons individuelles au rythme de chaque élève.",
+        tr: "Küçük yaştaki öğrencilere özel Arapça dersleri verdi; dört dil becerisine ve her öğrencinin kendi hızında ilerlediği bire bir derslerle güçlü bir okuma, yazma ve iletişim temeli oluşturmaya odaklandı.",
+        ko: "어린 학습자를 대상으로 아랍어 개인 지도를 진행했으며, 네 가지 언어 기능과 학습자 개개인의 속도에 맞춘 일대일 수업을 통해 탄탄한 읽기·쓰기 및 의사소통 기초를 다지는 데 주력했습니다.",
+        ja: "低年齢の学習者を対象にアラビア語の個人指導を実施。四つの言語技能を重視し、学習者一人ひとりのペースに合わせた個別レッスンを通じて、読み書きとコミュニケーションの確かな基礎力の育成に注力した。",
+        id: "Memberikan les privat bahasa Arab untuk pelajar usia dini, dengan fokus pada empat keterampilan berbahasa dan membangun dasar membaca, menulis, dan komunikasi yang kuat melalui pelajaran individual yang disesuaikan dengan kecepatan masing-masing pelajar."
       },
       responsibilities: {
         en: ["Preparing lessons adapted to each learner's level and pace.", "Improving reading, writing, and communication skills.", "Creating a supportive, encouraging learning environment."],
@@ -945,17 +959,17 @@ const CV_DATA = {
       institution: { en: "Arabic Institute for Studies", ar: "المعهد العربي للدراسات", zh: "阿拉伯研究学院", es: "Instituto Árabe de Estudios", fr: "Institut Arabe d’Études", tr: "Arap Araştırma Enstitüsü", ko: "아랍연구학원", ja: "アラブ研究学院", id: "Institut Studi Arab" },
       location: { en: "Egypt", ar: "مصر", zh: "埃及", es: "Egipto", fr: "Égypte", tr: "Mısır", ko: "이집트", ja: "エジプト", id: "Mesir" },
       name: { en: "Mini Master in Teaching Arabic Language for Non-Native Speakers", ar: "ماجستير مصغر في تعليم اللغة العربية للناطقين بغيرها", zh: "非母语者阿拉伯语教学迷你硕士课程", es: "Mini Máster en Enseñanza de Árabe para No Nativos", fr: "Mini Master en Enseignement de l'Arabe pour Non Natifs", tr: "Ana Dili Arapça Olmayanlar için Arapça Öğretimi Mini Yüksek Lisans", ko: "비원어민을 위한 아랍어 교육 미니 석사", ja: "非母語話者向けアラビア語教育 ミニマスター", id: "Mini Master Pengajaran Bahasa Arab untuk Non-Native" },
-      category: { en: "Professional Training", ar: "تدريب مهني" },
+      category: { en: "Professional Training", ar: "تدريب مهني", zh: "专业培训", es: "Formación Profesional", fr: "Formation Professionnelle", tr: "Mesleki Eğitim", ko: "전문 연수", ja: "専門研修", id: "Pelatihan Profesional" },
       description: {
         en: "Advanced professional qualification in Arabic language pedagogy — a professional training program, not an academic master's degree.",
         ar: "مؤهل مهني متقدم في تعليم اللغة العربية، وهو برنامج تدريب مهني وليس درجة ماجستير أكاديمية.",
-        zh: "阿拉伯语教学法方面的高级专业资格。",
-        es: "Cualificación profesional avanzada en pedagogía de la lengua árabe.",
-        fr: "Qualification professionnelle avancée en pédagogie de la langue arabe.",
-        tr: "Arapça dil pedagojisinde ileri düzey mesleki yeterlilik.",
-        ko: "아랍어 교수법 분야의 고급 전문 자격.",
-        ja: "アラビア語教授法における上級専門資格。",
-        id: "Kualifikasi profesional lanjutan dalam pedagogi bahasa Arab."
+        zh: "阿拉伯语教学法方面的高级专业资格——属于专业培训项目，并非学术硕士学位。",
+        es: "Cualificación profesional avanzada en pedagogía de la lengua árabe: un programa de formación profesional, no un máster académico.",
+        fr: "Qualification professionnelle avancée en pédagogie de la langue arabe — un programme de formation professionnelle, et non un diplôme de master académique.",
+        tr: "Arapça dil pedagojisinde ileri düzey mesleki yeterlilik — akademik bir yüksek lisans derecesi değil, mesleki bir eğitim programıdır.",
+        ko: "아랍어 교수법 분야의 고급 전문 자격 — 학술 석사 학위가 아닌 전문 연수 프로그램입니다.",
+        ja: "アラビア語教授法における上級専門資格——学術的な修士号ではなく、専門研修プログラムです。",
+        id: "Kualifikasi profesional lanjutan dalam pedagogi bahasa Arab — sebuah program pelatihan profesional, bukan gelar master akademik."
       }
     },
   ],
