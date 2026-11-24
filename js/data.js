@@ -402,8 +402,8 @@ const CV_DATA = {
       id: "ach1", icon: "content",
       title: { en: "Author, «Teacher's Compass» Training Package", ar: "مؤلّف حقيبة «بوصلة المعلّم» التدريبية" },
       description: {
-        en: "A ten-unit professional training package for teachers of Arabic to non-native speakers, written from real classroom practice and addressed to teachers at every stage, from their first lesson onward.",
-        ar: "حقيبة تدريبية مهنية من عشر وحدات لمعلّمي العربية للناطقين بغيرها، مؤلَّفة من واقع الممارسة الصفية، وتخاطب المعلّم في كل مراحله من درسه الأول فصاعدًا."
+        en: "A ten-unit professional training package for teachers of Arabic to non-native speakers, written from real classroom practice and drawing on more than ten years of experience, and addressed to teachers at every stage, from their first lesson onward.",
+        ar: "حقيبة تدريبية مهنية من عشر وحدات لمعلّمي العربية للناطقين بغيرها، مؤلَّفة من واقع الممارسة الصفية وبناءً على خبرة تمتدّ لأكثر من عشر سنوات، وتخاطب المعلّم في كل مراحله من درسه الأول فصاعدًا."
       }
     },
     {
