@@ -407,14 +407,6 @@ const CV_DATA = {
       }
     },
     {
-      id: "ach2", icon: "globe",
-      title: { en: "Founder, Arabic Teachers' Professional Community", ar: "مؤسس مجتمع مهني لمعلّمي العربية" },
-      description: {
-        en: "Founder and administrator of a WhatsApp professional community for teachers of Arabic to non-native speakers, where he has published a daily post on classroom practice since August 2026.",
-        ar: "مؤسس ومدير مجتمع مهني على واتساب لمعلّمي العربية للناطقين بغيرها، ينشر فيه منذ أغسطس ٢٠٢٦ منشورًا يوميًا في الممارسة الصفية."
-      }
-    },
-    {
       id: "ach3", icon: "system",
       title: { en: "Designer of Interactive Lesson Materials", ar: "مصمّم مواد ودروس تفاعلية" },
       description: {
