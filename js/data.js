@@ -439,14 +439,14 @@ const CV_DATA = {
       },
       responsibilities: {
         en: [
-          "Teaching Arabic language skills — speaking, listening, reading, and writing.",
+          "Teaching Arabic language skills — listening, speaking, reading, and writing.",
           "Designing classroom activities that encourage communication and practical language use.",
           "Creating educational materials adapted to learners' needs and proficiency levels.",
           "Supporting students from diverse cultural and linguistic backgrounds.",
           "Integrating technology into language learning activities."
         ],
         ar: [
-          "تدريب مهارات اللغة العربية — المحادثة والاستماع والقراءة والكتابة.",
+          "تدريب مهارات اللغة العربية — الاستماع والمحادثة والقراءة والكتابة.",
           "تصميم أنشطة صفية تشجع على التواصل والاستخدام العملي للغة.",
           "إعداد مواد تعليمية تتناسب مع احتياجات المتعلمين ومستوياتهم.",
           "دعم الطلاب من خلفيات ثقافية ولغوية متنوعة.",
