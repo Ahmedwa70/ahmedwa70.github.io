@@ -575,8 +575,8 @@ const CV_DATA = {
       position: { en: "Arabic Language Teacher", ar: "مدرس لغة عربية", zh: "阿拉伯语教师", es: "Profesor de Lengua Árabe", fr: "Professeur de Langue Arabe", tr: "Arapça Öğretmeni", ko: "아랍어 교사", ja: "アラビア語教師", id: "Guru Bahasa Arab" },
       location: { en: "Al-Arish, Egypt", ar: "العريش، مصر", zh: "埃及阿里什", es: "Al-Arish, Egipto", fr: "Al-Arish, Égypte", tr: "El-Ariş, Mısır", ko: "이집트 알아리시", ja: "エジプト・アル＝アリーシュ", id: "Al-Arish, Mesir" },
       summary: {
-        en: "Provided private Arabic language instruction for young learners in Al-Arish, Egypt, focused on building strong foundational literacy and communication skills through personalized, learner-paced lessons.",
-        ar: "قدّمت دروسًا خصوصية في اللغة العربية لمتعلمين صغار السن في العريش بمصر، مع التركيز على بناء أساس متين لمهارات القراءة والكتابة والتواصل من خلال دروس فردية تراعي وتيرة كل متعلم.",
+        en: "Provided private Arabic language instruction for young learners in Al-Arish, Egypt, focusing on the four language skills and on building a strong foundation in reading, writing, and communication through one-to-one lessons paced to each learner.",
+        ar: "قدّمت دروسًا خصوصية في اللغة العربية لمتعلّمين صغار السنّ في العريش بمصر، مع التركيز على المهارات اللغوية الأربع وبناء أساس متين في القراءة والكتابة والتواصل، من خلال دروس فردية تراعي وتيرة كلّ متعلّم.",
         zh: "在埃及阿里什为年幼学习者提供阿拉伯语私人教学，通过个性化、按学习者节奏进行的课程，帮助其打下扎实的读写与沟通基础。",
         es: "Impartió clases particulares de árabe a alumnos jóvenes en Al-Arish, Egipto, centradas en desarrollar una base sólida de alfabetización y comunicación mediante lecciones personalizadas y adaptadas al ritmo de cada estudiante.",
         fr: "A dispensé des cours particuliers d'arabe à de jeunes apprenants à Al-Arish, en Égypte, en mettant l'accent sur la construction de bases solides en lecture, écriture et communication grâce à des leçons personnalisées, au rythme de chaque élève.",
