@@ -408,7 +408,7 @@ const CV_DATA = {
     },
     {
       id: "ach3", icon: "system",
-      title: { en: "Designer of Interactive Lesson Materials", ar: "مصمّم مواد ودروس تفاعلية" },
+      title: { en: "Interactive Materials and Lesson Design", ar: "تصميم مواد ودروس تفاعلية" },
       description: {
         en: "Designs and produces interactive listening and conversation lessons, lesson videos, and student cards, used in his own classes with beginning learners.",
         ar: "يصمّم وينتج دروس استماع ومحادثة تفاعلية ومقاطع مرئية تعليمية وبطاقات طالب، تُستخدم فعليًا في صفوفه مع المتعلمين المبتدئين."
