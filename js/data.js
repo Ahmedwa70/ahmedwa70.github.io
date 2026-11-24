@@ -61,8 +61,8 @@ const CV_DATA = {
     },
     photo: "assets/images/profile.jpg",
     photoAlt: {
-      en: "Portrait of Ahmed Sobhy, International Arabic Language Educator",
-      ar: "صورة شخصية لأحمد صبحي، مدرس لغة عربية دولي",
+      en: "Portrait of Ahmed Sobhy, Arabic language educator for non-native speakers",
+      ar: "صورة شخصية لأحمد صبحي، معلّم اللغة العربية للناطقين بغيرها",
       zh: "艾哈迈德·索卜希肖像，国际阿拉伯语教育者",
       es: "Retrato de Ahmed Sobhy, Educador Internacional de Lengua Árabe",
       fr: "Portrait d'Ahmed Sobhy, Éducateur International en Langue Arabe",
@@ -188,8 +188,8 @@ const CV_DATA = {
       id: "Perancang Pengalaman Belajar Digital"
     },
     description: {
-      en: "An international Arabic language educator specializing in teaching Arabic to non-native speakers — particularly international learners from diverse cultural backgrounds — while developing innovative digital learning solutions.",
-      ar: "مدرس لغة عربية دولي متخصص في تعليم العربية للناطقين بغيرها، وخاصة المتعلمين الدوليين من مختلف الخلفيات الثقافية، مع تطوير حلول تعليمية رقمية مبتكرة.",
+      en: "An Arabic language educator specializing in teaching Arabic to non-native speakers — particularly international learners from diverse cultural backgrounds — while developing innovative digital learning solutions.",
+      ar: "معلّم لغة عربية متخصص في تعليم العربية للناطقين بغيرها، وخاصة المتعلمين الدوليين من مختلف الخلفيات الثقافية، ويطوّر حلولًا تعليمية رقمية مبتكرة.",
       zh: "一位国际阿拉伯语教育专家，专注于为非母语学习者——尤其是来自不同文化背景的国际学生——教授阿拉伯语，同时致力于开发创新的数字化学习方案。",
       es: "Educador internacional de lengua árabe especializado en la enseñanza del árabe a hablantes no nativos —en particular, estudiantes internacionales de orígenes culturales diversos— mientras desarrolla soluciones de aprendizaje digital innovadoras.",
       fr: "Enseignant international de langue arabe, spécialisé dans l'enseignement de l'arabe aux locuteurs non natifs — en particulier aux apprenants internationaux issus de milieux culturels variés — tout en développant des solutions d'apprentissage numérique innovantes.",
@@ -206,7 +206,7 @@ const CV_DATA = {
   academicProfile: {
     line: {
       en: "Arabic Language Educator  ·  Educational Technology Creator  ·  Cross-cultural Learning Specialist",
-      ar: "مدرّس لغة عربية دولي  ·  مبتكر في تكنولوجيا التعليم  ·  متخصص في التعلم متعدد الثقافات",
+      ar: "معلّم لغة عربية للناطقين بغيرها  ·  مبتكر في تكنولوجيا التعليم  ·  متخصص في التعلم متعدد الثقافات",
       zh: "阿拉伯语教育专家  ·  教育科技创造者  ·  跨文化学习专家",
       es: "Educador de Lengua Árabe  ·  Creador de Tecnología Educativa  ·  Especialista en Aprendizaje Intercultural",
       fr: "Enseignant de Langue Arabe  ·  Créateur de Technologie Éducative  ·  Spécialiste de l'Apprentissage Interculturel",
@@ -287,7 +287,7 @@ const CV_DATA = {
       // glyphs the bidi algorithm reordered in Arabic.
       id: "hl1", valueSinceYear: 2016,
       label: {
-        en: "Years of Teaching Experience", ar: "سنوات من التدريس", zh: "教学经验年限", es: "Años de Experiencia Docente",
+        en: "Years Teaching Arabic to Non-Native Speakers", ar: "سنوات تدريس العربية للناطقين بغيرها", zh: "教学经验年限", es: "Años de Experiencia Docente",
         fr: "Années d'Expérience en Enseignement", tr: "Yıllık Öğretmenlik Deneyimi", ko: "교육 경력(년)",
         ja: "指導経験年数", id: "Tahun Pengalaman Mengajar"
       },
@@ -381,8 +381,8 @@ const CV_DATA = {
         ja: "多言語コミュニケーション", id: "Komunikasi Multibahasa"
       },
       description: {
-        en: "Confident communication across multicultural environments in Arabic, English, and Chinese.",
-        ar: "القدرة على التواصل بثقة في بيئات متعددة الثقافات باللغات العربية والإنجليزية والصينية.",
+        en: "Communication across multicultural environments in Arabic, English, and Chinese.",
+        ar: "التواصل في بيئات متعددة الثقافات باللغات العربية والإنجليزية والصينية.",
         zh: "能够自信地在多元文化环境中使用阿拉伯语、英语和中文进行沟通。",
         es: "Capacidad de comunicarse con confianza en entornos multiculturales en árabe, inglés y chino.",
         fr: "Capacité à communiquer avec assurance dans des environnements multiculturels en arabe, anglais et chinois.",
@@ -399,78 +399,19 @@ const CV_DATA = {
   // =======================================================================
   achievements: [
     {
-      id: "ach1", icon: "years",
-      title: { en: "Years of Experience", ar: "سنوات من الخبرة", zh: "多年教学经验", es: "Años de Experiencia", fr: "Années d'Expérience", tr: "Yıllara Dayanan Deneyim", ko: "다년간의 경력", ja: "長年の指導経験", id: "Bertahun-tahun Pengalaman" },
+      id: "ach1", icon: "content",
+      title: { en: "Author, «Teacher's Compass» Training Package", ar: "مؤلّف حقيبة «بوصلة المعلّم» التدريبية" },
       description: {
-        en: "Accumulated experience teaching Arabic to non-native speakers.",
-        ar: "خبرة متراكمة في تدريس اللغة العربية للناطقين بغيرها.",
-        zh: "在阿拉伯语作为第二语言教学方面积累了丰富经验。",
-        es: "Experiencia acumulada enseñando árabe a hablantes no nativos.",
-        fr: "Expérience cumulée dans l'enseignement de l'arabe aux locuteurs non natifs.",
-        tr: "Ana dili Arapça olmayan öğrencilere Arapça öğretiminde birikmiş deneyim.",
-        ko: "비원어민 대상 아랍어 교육 경험이 축적되어 있습니다.",
-        ja: "非母語話者へのアラビア語指導における豊富な経験。",
-        id: "Pengalaman yang terkumpul dalam mengajar bahasa Arab kepada penutur non-native."
+        en: "A ten-unit professional training package for teachers of Arabic to non-native speakers, written from real classroom practice and drawing on more than ten years of experience, and addressed to teachers at every stage, from their first lesson onward.",
+        ar: "حقيبة تدريبية مهنية من عشر وحدات لمعلّمي العربية للناطقين بغيرها، مؤلَّفة من واقع الممارسة الصفية وبناءً على خبرة تمتدّ لأكثر من عشر سنوات، وتخاطب المعلّم في كل مراحله من درسه الأول فصاعدًا."
       }
     },
     {
-      id: "ach2", icon: "globe",
-      title: { en: "International Environment", ar: "بيئة تدريس دولية", zh: "国际化教学环境", es: "Entorno Internacional", fr: "Environnement International", tr: "Uluslararası Ortam", ko: "국제적인 교육 환경", ja: "国際的な指導環境", id: "Lingkungan Internasional" },
+      id: "ach3", icon: "system",
+      title: { en: "Designer of Interactive Lesson Materials", ar: "مصمّم مواد ودروس تفاعلية" },
       description: {
-        en: "Teaching learners from diverse nationalities and cultural backgrounds.",
-        ar: "تدريس متعلمين من جنسيات وخلفيات ثقافية متعددة.",
-        zh: "为来自不同国籍与文化背景的学习者授课。",
-        es: "Enseñanza a estudiantes de diversas nacionalidades y orígenes culturales.",
-        fr: "Enseignement auprès d'apprenants de nationalités et de cultures variées.",
-        tr: "Farklı milliyet ve kültürel geçmişlere sahip öğrencilere ders verme.",
-        ko: "다양한 국적과 문화적 배경을 가진 학습자를 가르칩니다.",
-        ja: "多様な国籍・文化的背景を持つ学習者への指導。",
-        id: "Mengajar pelajar dari berbagai kebangsaan dan latar belakang budaya."
-      }
-    },
-    {
-      id: "ach3", icon: "content",
-      title: { en: "Educational Content", ar: "تطوير محتوى تعليمي", zh: "教育内容开发", es: "Contenido Educativo", fr: "Contenu Pédagogique", tr: "Eğitim İçeriği", ko: "교육 콘텐츠 개발", ja: "教育コンテンツ開発", id: "Konten Pendidikan" },
-      description: {
-        en: "Designing materials and lessons built around international learners' needs.",
-        ar: "تصميم مواد ودروس تراعي احتياجات المتعلم الدولي.",
-        zh: "围绕国际学习者的需求设计教材与课程。",
-        es: "Diseño de materiales y clases centrados en las necesidades de estudiantes internacionales.",
-        fr: "Conception de supports et de cours adaptés aux besoins des apprenants internationaux.",
-        tr: "Uluslararası öğrencilerin ihtiyaçlarına göre materyal ve ders tasarımı.",
-        ko: "국제 학습자의 필요에 맞춘 교재와 수업을 설계합니다.",
-        ja: "国際的な学習者のニーズに合わせた教材・授業の設計。",
-        id: "Merancang materi dan pelajaran yang disesuaikan dengan kebutuhan pelajar internasional."
-      }
-    },
-    {
-      id: "ach4", icon: "system",
-      title: { en: "Digital Learning Systems", ar: "أنظمة تعلم رقمية", zh: "数字化学习系统", es: "Sistemas de Aprendizaje Digital", fr: "Systèmes d'Apprentissage Numérique", tr: "Dijital Öğrenme Sistemleri", ko: "디지털 학습 시스템", ja: "デジタル学習システム", id: "Sistem Pembelajaran Digital" },
-      description: {
-        en: "Building interactive solutions that bring technology into language teaching.",
-        ar: "بناء حلول تفاعلية تدمج التكنولوجيا في تعليم اللغة.",
-        zh: "构建将科技融入语言教学的互动解决方案。",
-        es: "Creación de soluciones interactivas que integran la tecnología en la enseñanza de idiomas.",
-        fr: "Création de solutions interactives intégrant la technologie à l'enseignement des langues.",
-        tr: "Teknolojiyi dil öğretimine entegre eden etkileşimli çözümler geliştirme.",
-        ko: "언어 교육에 기술을 접목한 상호작용형 솔루션을 구축합니다.",
-        ja: "言語教育にテクノロジーを取り入れた双方向型ソリューションの構築。",
-        id: "Membangun solusi interaktif yang menghadirkan teknologi ke dalam pengajaran bahasa."
-      }
-    },
-    {
-      id: "ach5", icon: "culture",
-      title: { en: "Cross-cultural Communication", ar: "تواصل عبر الثقافات", zh: "跨文化沟通", es: "Comunicación Intercultural", fr: "Communication Interculturelle", tr: "Kültürlerarası İletişim", ko: "다문화 소통", ja: "異文化コミュニケーション", id: "Komunikasi Lintas Budaya" },
-      description: {
-        en: "Practical experience communicating effectively across cultures.",
-        ar: "خبرة عملية في التواصل الفعّال بين ثقافات مختلفة.",
-        zh: "具备跨文化高效沟通的实践经验。",
-        es: "Experiencia práctica en la comunicación eficaz entre culturas.",
-        fr: "Expérience pratique d'une communication efficace entre les cultures.",
-        tr: "Farklı kültürler arasında etkili iletişim konusunda pratik deneyim.",
-        ko: "문화 간 효과적인 소통에 대한 실무 경험을 갖추고 있습니다.",
-        ja: "異文化間で効果的にコミュニケーションを行う実践的な経験。",
-        id: "Pengalaman praktis dalam berkomunikasi secara efektif lintas budaya."
+        en: "Design and production of interactive listening and conversation lessons, lesson videos, and student cards, used in his own classes with beginning learners.",
+        ar: "تصميم وإنتاج دروس استماع ومحادثة تفاعلية ومقاطع مرئية تعليمية وبطاقات طالب، تُستخدم فعليًا في صفوفه مع المتعلمين المبتدئين."
       }
     }
   ],
@@ -481,13 +422,13 @@ const CV_DATA = {
   // =======================================================================
   experience: [
     {
-      id: "exp1", icon: "language", period: "2016 — 2026",
-      position: { en: "International Arabic Language Instructor", ar: "مدرس لغة عربية دولي", zh: "国际阿拉伯语教师", es: "Instructor Internacional de Lengua Árabe", fr: "Instructeur International de Langue Arabe", tr: "Uluslararası Arapça Dil Eğitmeni", ko: "국제 아랍어 강사", ja: "国際アラビア語講師", id: "Instruktur Bahasa Arab Internasional" },
-      organization: { en: "Shandong Foreign Language Vocational and Technical University of International Studies", ar: "جامعة شاندونغ المهنية والتقنية للغات الأجنبية", zh: "山东外国语职业技术大学", es: "Universidad Vocacional y Técnica de Lenguas Extranjeras de Shandong", fr: "Université Professionnelle et Technique des Langues Étrangères du Shandong", tr: "Shandong Yabancı Diller Mesleki ve Teknik Üniversitesi", ko: "산둥외국어직업기술대학교", ja: "山東外国語職業技術大学", id: "Universitas Vokasi dan Teknik Bahasa Asing Shandong" },
+      id: "exp1", icon: "language", period: "2016 — Present",
+      position: { en: "Lecturer in Arabic Language for Non-Native Speakers", ar: "محاضر اللغة العربية للناطقين بغيرها", zh: "国际阿拉伯语教师", es: "Instructor Internacional de Lengua Árabe", fr: "Instructeur International de Langue Arabe", tr: "Uluslararası Arapça Dil Eğitmeni", ko: "국제 아랍어 강사", ja: "国際アラビア語講師", id: "Instruktur Bahasa Arab Internasional" },
+      organization: { en: "Shandong Foreign Language Vocational and Technical University", ar: "جامعة شاندونغ المهنية والتقنية للغات الأجنبية", zh: "山东外国语职业技术大学", es: "Universidad Vocacional y Técnica de Lenguas Extranjeras de Shandong", fr: "Université Professionnelle et Technique des Langues Étrangères du Shandong", tr: "Shandong Yabancı Diller Mesleki ve Teknik Üniversitesi", ko: "산둥외국어직업기술대학교", ja: "山東外国語職業技術大学", id: "Universitas Vokasi dan Teknik Bahasa Asing Shandong" },
       location: { en: "China", ar: "الصين", zh: "中国", es: "China", fr: "Chine", tr: "Çin", ko: "중국", ja: "中国", id: "Tiongkok" },
       summary: {
         en: "Teaching Arabic as a Foreign Language to international, non-native learners in China, with an emphasis on learner-centered course design. Combines communicative teaching methods with purpose-built interactive materials to make language acquisition practical and engaging rather than purely theoretical.",
-        ar: "تدريس اللغة العربية كلغة أجنبية لمتعلمين دوليين غير ناطقين بها في الصين، مع التركيز على تصميم المقررات وفق احتياجات المتعلم. يجمع هذا الدور بين أساليب التدريس التواصلية ومواد تفاعلية مُعدّة خصيصًا لجعل اكتساب اللغة تجربة عملية وجذابة لا مجرد تمرين نظري.",
+        ar: "أدرّس اللغة العربية كلغة أجنبية لمتعلمين دوليين غير ناطقين بها في الصين، مع التركيز على تصميم المقررات وفق احتياجات المتعلم، وأجمع في هذا الدور بين أساليب التدريس التواصلية ومواد تفاعلية مُعدّة خصيصًا لجعل اكتساب اللغة تجربة عملية وجذابة لا مجرد تمرين نظري.",
         zh: "在中国为国际非母语学习者教授阿拉伯语作为外语，注重以学习者为中心的课程设计。将交际教学法与专门开发的互动教材相结合，使语言习得成为实用而有吸引力的体验，而非单纯的理论训练。",
         es: "Enseñanza de árabe como lengua extranjera a estudiantes internacionales no nativos en China, con énfasis en un diseño de curso centrado en el alumno. Combina métodos de enseñanza comunicativa con materiales interactivos diseñados a medida para que la adquisición del idioma sea práctica y motivadora, no meramente teórica.",
         fr: "Enseignement de l'arabe langue étrangère à des apprenants internationaux non natifs en Chine, avec un accent sur une conception de cours centrée sur l'apprenant. Allie des méthodes d'enseignement communicatives à des supports interactifs conçus sur mesure pour rendre l'acquisition de la langue concrète et engageante plutôt que purement théorique.",
@@ -498,14 +439,14 @@ const CV_DATA = {
       },
       responsibilities: {
         en: [
-          "Teaching Arabic language skills — speaking, listening, reading, and writing.",
+          "Teaching Arabic language skills — listening, speaking, reading, and writing.",
           "Designing classroom activities that encourage communication and practical language use.",
           "Creating educational materials adapted to learners' needs and proficiency levels.",
           "Supporting students from diverse cultural and linguistic backgrounds.",
           "Integrating technology into language learning activities."
         ],
         ar: [
-          "تدريب مهارات اللغة العربية — المحادثة والاستماع والقراءة والكتابة.",
+          "تدريب مهارات اللغة العربية — الاستماع والمحادثة والقراءة والكتابة.",
           "تصميم أنشطة صفية تشجع على التواصل والاستخدام العملي للغة.",
           "إعداد مواد تعليمية تتناسب مع احتياجات المتعلمين ومستوياتهم.",
           "دعم الطلاب من خلفيات ثقافية ولغوية متنوعة.",
@@ -634,8 +575,8 @@ const CV_DATA = {
       position: { en: "Arabic Language Teacher", ar: "مدرس لغة عربية", zh: "阿拉伯语教师", es: "Profesor de Lengua Árabe", fr: "Professeur de Langue Arabe", tr: "Arapça Öğretmeni", ko: "아랍어 교사", ja: "アラビア語教師", id: "Guru Bahasa Arab" },
       location: { en: "Al-Arish, Egypt", ar: "العريش، مصر", zh: "埃及阿里什", es: "Al-Arish, Egipto", fr: "Al-Arish, Égypte", tr: "El-Ariş, Mısır", ko: "이집트 알아리시", ja: "エジプト・アル＝アリーシュ", id: "Al-Arish, Mesir" },
       summary: {
-        en: "Provided private Arabic language instruction for young learners in Al-Arish, Egypt, focused on building strong foundational literacy and communication skills through personalized, learner-paced lessons.",
-        ar: "تقديم دروسًا خصوصية في اللغة العربية لمتعلمين صغار السن، مع التركيز على بناء أساس متين لمهارات القراءة والكتابة والتواصل من خلال دروس فردية تراعي وتيرة كل متعلم.",
+        en: "Provided private Arabic language instruction for young learners, focusing on the four language skills and on building a strong foundation in reading, writing, and communication through one-to-one lessons paced to each learner.",
+        ar: "قدّمت دروسًا خصوصية في اللغة العربية لمتعلّمين صغار السنّ، مع التركيز على المهارات اللغوية الأربع وبناء أساس متين في القراءة والكتابة والتواصل، من خلال دروس فردية تراعي وتيرة كلّ متعلّم.",
         zh: "在埃及阿里什为年幼学习者提供阿拉伯语私人教学，通过个性化、按学习者节奏进行的课程，帮助其打下扎实的读写与沟通基础。",
         es: "Impartió clases particulares de árabe a alumnos jóvenes en Al-Arish, Egipto, centradas en desarrollar una base sólida de alfabetización y comunicación mediante lecciones personalizadas y adaptadas al ritmo de cada estudiante.",
         fr: "A dispensé des cours particuliers d'arabe à de jeunes apprenants à Al-Arish, en Égypte, en mettant l'accent sur la construction de bases solides en lecture, écriture et communication grâce à des leçons personnalisées, au rythme de chaque élève.",
@@ -681,11 +622,11 @@ const CV_DATA = {
     {
       id: "exp3", icon: "computer", period: "2014 — 2016",
       position: { en: "Computer Teacher & Quality Management Assistant", ar: "مدرس حاسب آلي ومساعد إدارة جودة", zh: "计算机教师兼质量管理助理", es: "Profesor de Informática y Asistente de Gestión de Calidad", fr: "Professeur d'Informatique et Assistant en Gestion de la Qualité", tr: "Bilgisayar Öğretmeni ve Kalite Yönetimi Asistanı", ko: "컴퓨터 교사 겸 품질관리 보조", ja: "コンピュータ教師 兼 品質管理アシスタント", id: "Guru Komputer & Asisten Manajemen Mutu" },
-      organization: { en: "Sinai Private School", ar: "سينا سكول الخاصة", zh: "西奈私立学校", es: "Escuela Privada Sinaí", fr: "École Privée Sinaï", tr: "Sina Özel Okulu", ko: "시나이 사립학교", ja: "シナイ私立学校", id: "Sekolah Swasta Sinai" },
+      organization: { en: "Sinai Private School", ar: "مدرسة سينا سكول الخاصة", zh: "西奈私立学校", es: "Escuela Privada Sinaí", fr: "École Privée Sinaï", tr: "Sina Özel Okulu", ko: "시나이 사립학교", ja: "シナイ私立学校", id: "Sekolah Swasta Sinai" },
       location: { en: "Al-Arish, Egypt", ar: "العريش، مصر", zh: "埃及阿里什", es: "Al-Arish, Egipto", fr: "Al-Arish, Égypte", tr: "El-Ariş, Mısır", ko: "이집트 알아리시", ja: "エジプト・アル＝アリーシュ", id: "Al-Arish, Mesir" },
       summary: {
         en: "Taught computer science fundamentals while contributing to quality management processes at a school in Al-Arish, Egypt — an early foundation for combining technology with structured educational practice.",
-        ar: "تقديم دروس في أساسيات علوم الحاسب مع المشاركة في عمليات إدارة الجودة في مدرسة سينا سكول — وهي مرحلة مبكرة أرست أساسًا للجمع بين التكنولوجيا والممارسة التعليمية المنظمة.",
+        ar: "درّست أساسيات الحاسب الآلي وشاركت في عمليات إدارة الجودة في مدرسة سينا سكول الخاصة، وكانت تلك مرحلة مبكرة أرست أساس الجمع بين التكنولوجيا والممارسة التعليمية المنظمة.",
         zh: "在埃及阿里什一所学校教授计算机科学基础知识，同时参与质量管理相关工作——为日后将科技与规范化教育实践相结合奠定了早期基础。",
         es: "Impartió los fundamentos de informática y colaboró en los procesos de gestión de calidad de una escuela en Al-Arish, Egipto, sentando una base temprana para combinar la tecnología con una práctica educativa estructurada.",
         fr: "A enseigné les fondamentaux de l'informatique tout en participant aux processus de gestion de la qualité dans une école d'Al-Arish, en Égypte — une base précoce pour associer technologie et pratique pédagogique structurée.",
@@ -735,7 +676,7 @@ const CV_DATA = {
       location: { en: "Cairo, Egypt", ar: "القاهرة، مصر", zh: "埃及开罗", es: "El Cairo, Egipto", fr: "Le Caire, Égypte", tr: "Kahire, Mısır", ko: "이집트 카이로", ja: "エジプト・カイロ", id: "Kairo, Mesir" },
       summary: {
         en: "Designed promotional and broadcast visual content for clients in Cairo, Egypt — building a foundation in visual communication and digital media production later applied to educational content design.",
-        ar: "تصميم محتوى بصريًا ترويجيًا وتلفزيونيًا لعملاء في القاهرة — مما أرسى أساسًا في التواصل البصري وإنتاج الوسائط الرقمية، طُبِّق لاحقًا في تصميم المحتوى التعليمي.",
+        ar: "صمّمت محتوى بصريًا ترويجيًا وتلفزيونيًا لعملاء في القاهرة، فأرسى ذلك أساسًا في التواصل البصري وإنتاج الوسائط الرقمية طُبّق لاحقًا في تصميم المحتوى التعليمي.",
         zh: "在埃及开罗为客户设计宣传及电视播出用视觉内容——为日后应用于教育内容设计的视觉传达与数字媒体制作能力奠定了基础。",
         es: "Diseñó contenido visual promocional y para emisión televisiva destinado a clientes en El Cairo, Egipto, sentando una base en comunicación visual y producción de medios digitales que aplicaría más tarde al diseño de contenido educativo.",
         fr: "A conçu du contenu visuel promotionnel et télévisuel pour des clients au Caire, en Égypte — posant les bases d'une expertise en communication visuelle et production de médias numériques, appliquée plus tard à la conception de contenus pédagogiques.",
@@ -920,8 +861,8 @@ const CV_DATA = {
       id: "Sistem pembelajaran digital yang dirancang untuk mengubah cara pemerolehan bahasa Arab melalui pelajaran interaktif, latihan berbicara, teknik kelas modern, dan metode pengajaran yang terus berkembang — dibangun untuk pelajar dari segala kebangsaan."
     },
     features: {
-      en: ["Interactive video lessons", "Speaking practice activities", "Progress tracking", "Culturally relevant content"],
-      ar: ["دروس فيديو تفاعلية", "أنشطة تدريب على المحادثة", "متابعة التقدم", "محتوى مراعٍ للتنوع الثقافي"],
+      en: ["Interactive video lessons", "Speaking practice activities", "Structured lesson pathways", "Culturally relevant content"],
+      ar: ["دروس فيديو تفاعلية", "أنشطة تدريب على المحادثة", "مسارات دروس منظمة", "محتوى مراعٍ للتنوع الثقافي"],
       zh: ["互动视频课程", "口语练习活动", "学习进度跟踪", "贴合文化背景的内容"],
       es: ["Lecciones en vídeo interactivas", "Actividades de práctica oral", "Seguimiento del progreso", "Contenido culturalmente relevante"],
       fr: ["Cours vidéo interactifs", "Activités de pratique orale", "Suivi de la progression", "Contenu culturellement pertinent"],
@@ -942,7 +883,7 @@ const CV_DATA = {
       id: ["Pembelajaran Interaktif", "Teknologi Pendidikan", "Bahasa Arab"]
     },
     status: {
-      en: "Actively developed and used with students", ar: "قيد التطوير المستمر ومستخدم فعليًا مع الطلاب",
+      en: "In active development", ar: "قيد التطوير المستمر",
       zh: "持续开发中，并已实际应用于学生教学", es: "En desarrollo activo y en uso con estudiantes",
       fr: "En développement actif et utilisé avec les étudiants", tr: "Aktif olarak geliştiriliyor ve öğrencilerle kullanılıyor",
       ko: "지속적으로 개발 중이며 실제 학생들과 함께 사용 중", ja: "現在も開発が続けられており、実際の学生と共に活用されています",
@@ -961,8 +902,6 @@ const CV_DATA = {
     { id: "skill5", icon: "classroom", name: { en: "Classroom Management", ar: "إدارة الصف", zh: "课堂管理", es: "Gestión del Aula", fr: "Gestion de Classe", tr: "Sınıf Yönetimi", ko: "교실 관리", ja: "クラスマネジメント", id: "Manajemen Kelas" } },
     { id: "skill6", icon: "tech", name: { en: "Educational Technology", ar: "تكنولوجيا التعليم", zh: "教育科技", es: "Tecnología Educativa", fr: "Technologie Éducative", tr: "Eğitim Teknolojisi", ko: "교육 기술", ja: "教育テクノロジー", id: "Teknologi Pendidikan" } },
     { id: "skill7", icon: "interactive", name: { en: "Interactive Learning Design", ar: "تصميم التعلم التفاعلي", zh: "互动学习设计", es: "Diseño de Aprendizaje Interactivo", fr: "Conception d'Apprentissage Interactif", tr: "Etkileşimli Öğrenme Tasarımı", ko: "상호작용형 학습 설계", ja: "双方向型学習デザイン", id: "Desain Pembelajaran Interaktif" } },
-    { id: "skill8", icon: "communication", name: { en: "Communication Skills", ar: "مهارات التواصل", zh: "沟通能力", es: "Habilidades de Comunicación", fr: "Compétences en Communication", tr: "İletişim Becerileri", ko: "커뮤니케이션 능력", ja: "コミュニケーション能力", id: "Keterampilan Komunikasi" } },
-    { id: "skill9", icon: "solve", name: { en: "Problem Solving", ar: "حل المشكلات", zh: "问题解决能力", es: "Resolución de Problemas", fr: "Résolution de Problèmes", tr: "Problem Çözme", ko: "문제 해결 능력", ja: "問題解決能力", id: "Pemecahan Masalah" } },
     { id: "skill10", icon: "content", name: { en: "Digital Content Creation", ar: "صناعة المحتوى الرقمي", zh: "数字内容制作", es: "Creación de Contenido Digital", fr: "Création de Contenu Numérique", tr: "Dijital İçerik Üretimi", ko: "디지털 콘텐츠 제작", ja: "デジタルコンテンツ制作", id: "Pembuatan Konten Digital" } }
   ],
 
@@ -975,7 +914,7 @@ const CV_DATA = {
       id: "edu2", year: "2021",
       institution: { en: "Arabic Institute for Studies", ar: "المعهد العربي للدراسات", zh: "阿拉伯研究学院", es: "Instituto Árabe de Estudios", fr: "Institut Arabe d’Études", tr: "Arap Araştırma Enstitüsü", ko: "아랍연구학원", ja: "アラブ研究学院", id: "Institut Studi Arab" },
       location: { en: "Egypt", ar: "مصر", zh: "埃及", es: "Egipto", fr: "Égypte", tr: "Mısır", ko: "이집트", ja: "エジプト", id: "Mesir" },
-      degree: { en: "Diploma in Arabic Language for Non-Native Speakers", ar: "دبلومة تعليم اللغة العربية للناطقين بغيرها", zh: "非母语者阿拉伯语教学文凭", es: "Diplomado en Lengua Árabe para No Nativos", fr: "Diplôme d'Arabe pour Locuteurs Non Natifs", tr: "Ana Dili Arapça Olmayanlar için Arapça Dili Diploması", ko: "비원어민을 위한 아랍어 디플로마", ja: "非母語話者向けアラビア語ディプロマ", id: "Diploma Bahasa Arab untuk Penutur Non-Native" },
+      degree: { en: "Diploma in Arabic Language for Non-Native Speakers", ar: "دبلوم تعليم اللغة العربية للناطقين بغيرها", zh: "非母语者阿拉伯语教学文凭", es: "Diplomado en Lengua Árabe para No Nativos", fr: "Diplôme d'Arabe pour Locuteurs Non Natifs", tr: "Ana Dili Arapça Olmayanlar için Arapça Dili Diploması", ko: "비원어민을 위한 아랍어 디플로마", ja: "非母語話者向けアラビア語ディプロマ", id: "Diploma Bahasa Arab untuk Penutur Non-Native" },
       description: {
         en: "Specialized training in teaching methodology for non-native Arabic learners.",
         ar: "تدريب متخصص في منهجية تدريس العربية للمتعلمين غير الناطقين بها.",
@@ -986,23 +925,6 @@ const CV_DATA = {
         ko: "비원어민 아랍어 학습자를 위한 교수법 전문 교육.",
         ja: "非母語話者のアラビア語学習者向け指導法に特化した専門教育。",
         id: "Pelatihan khusus dalam metodologi pengajaran untuk pelajar bahasa Arab non-native."
-      }
-    },
-    {
-      id: "edu3", year: "2021",
-      institution: { en: "Arabic Institute for Studies", ar: "المعهد العربي للدراسات", zh: "阿拉伯研究学院", es: "Instituto Árabe de Estudios", fr: "Institut Arabe d’Études", tr: "Arap Araştırma Enstitüsü", ko: "아랍연구학원", ja: "アラブ研究学院", id: "Institut Studi Arab" },
-      location: { en: "Egypt", ar: "مصر", zh: "埃及", es: "Egipto", fr: "Égypte", tr: "Mısır", ko: "이집트", ja: "エジプト", id: "Mesir" },
-      degree: { en: "Mini Master in Teaching Arabic Language for Non-Native Speakers", ar: "ماجستير مصغر في تعليم اللغة العربية للناطقين بغيرها", zh: "非母语者阿拉伯语教学迷你硕士学位", es: "Mini Máster en Enseñanza de Árabe para No Nativos", fr: "Mini Master en Enseignement de l'Arabe pour Non Natifs", tr: "Ana Dili Arapça Olmayanlar için Arapça Öğretimi Mini Yüksek Lisans", ko: "비원어민을 위한 아랍어 교육 미니 석사", ja: "非母語話者向けアラビア語教育 ミニマスター", id: "Mini Master Pengajaran Bahasa Arab untuk Non-Native" },
-      description: {
-        en: "Advanced professional qualification in Arabic language pedagogy.",
-        ar: "مؤهل مهني متقدم في تدريس اللغة العربية.",
-        zh: "阿拉伯语教学法方面的高级专业资格。",
-        es: "Cualificación profesional avanzada en pedagogía de la lengua árabe.",
-        fr: "Qualification professionnelle avancée en pédagogie de la langue arabe.",
-        tr: "Arapça dil pedagojisinde ileri düzey mesleki yeterlilik.",
-        ko: "아랍어 교수법 분야의 고급 전문 자격.",
-        ja: "アラビア語教授法における上級専門資格。",
-        id: "Kualifikasi profesional lanjutan dalam pedagogi bahasa Arab."
       }
     },
     {
@@ -1019,86 +941,23 @@ const CV_DATA = {
   // =======================================================================
   certifications: [
     {
-      id: "cert1", year: "2017",
-      institution: { en: "IBS Training Academy", ar: "أكاديمية IBS للتدريب", zh: "IBS培训学院", es: "Academia de Formación IBS", fr: "Académie de Formation IBS", tr: "IBS Eğitim Akademisi", ko: "IBS 교육 아카데미", ja: "IBS研修アカデミー", id: "Akademi Pelatihan IBS" },
-      location: { en: "Cairo, Egypt", ar: "القاهرة، مصر", zh: "埃及开罗", es: "El Cairo, Egipto", fr: "Le Caire, Égypte", tr: "Kahire, Mısır", ko: "이집트 카이로", ja: "エジプト・カイロ", id: "Kairo, Mesir" },
-      name: { en: "Mini MBA", ar: "ماجستير إدارة أعمال مصغّر (Mini MBA)", zh: "迷你工商管理硕士（Mini MBA）", es: "Mini MBA", fr: "Mini MBA", tr: "Mini MBA", ko: "미니 MBA", ja: "ミニMBA", id: "Mini MBA" },
-      category: { en: "Business Administration", ar: "إدارة الأعمال", zh: "工商管理", es: "Administración de Empresas", fr: "Administration des Affaires", tr: "İşletme Yönetimi", ko: "경영학", ja: "経営管理", id: "Administrasi Bisnis" },
+      id: "cert-mini-master", year: "2021",
+      institution: { en: "Arabic Institute for Studies", ar: "المعهد العربي للدراسات", zh: "阿拉伯研究学院", es: "Instituto Árabe de Estudios", fr: "Institut Arabe d’Études", tr: "Arap Araştırma Enstitüsü", ko: "아랍연구학원", ja: "アラブ研究学院", id: "Institut Studi Arab" },
+      location: { en: "Egypt", ar: "مصر", zh: "埃及", es: "Egipto", fr: "Égypte", tr: "Mısır", ko: "이집트", ja: "エジプト", id: "Mesir" },
+      name: { en: "Mini Master in Teaching Arabic Language for Non-Native Speakers", ar: "ماجستير مصغر في تعليم اللغة العربية للناطقين بغيرها", zh: "非母语者阿拉伯语教学迷你硕士课程", es: "Mini Máster en Enseñanza de Árabe para No Nativos", fr: "Mini Master en Enseignement de l'Arabe pour Non Natifs", tr: "Ana Dili Arapça Olmayanlar için Arapça Öğretimi Mini Yüksek Lisans", ko: "비원어민을 위한 아랍어 교육 미니 석사", ja: "非母語話者向けアラビア語教育 ミニマスター", id: "Mini Master Pengajaran Bahasa Arab untuk Non-Native" },
+      category: { en: "Professional Training", ar: "تدريب مهني" },
       description: {
-        en: "Professional qualification covering essential business administration concepts, management principles, and organizational practices.",
-        ar: "مؤهل مهني يغطي المفاهيم الأساسية في إدارة الأعمال ومبادئ الإدارة والممارسات التنظيمية.",
-        zh: "涵盖工商管理核心概念、管理原则与组织实务的专业资格认证。",
-        es: "Cualificación profesional que abarca los conceptos esenciales de administración de empresas, principios de gestión y prácticas organizacionales.",
-        fr: "Qualification professionnelle couvrant les concepts fondamentaux d'administration des affaires, les principes de gestion et les pratiques organisationnelles.",
-        tr: "Temel işletme yönetimi kavramlarını, yönetim ilkelerini ve organizasyonel uygulamaları kapsayan mesleki yeterlilik.",
-        ko: "경영학 핵심 개념, 관리 원칙 및 조직 운영 실무를 다루는 전문 자격.",
-        ja: "経営管理の基本概念、マネジメント原則および組織運営の実務を網羅する専門資格。",
-        id: "Kualifikasi profesional yang mencakup konsep dasar administrasi bisnis, prinsip manajemen, dan praktik organisasi."
+        en: "Advanced professional qualification in Arabic language pedagogy — a professional training program, not an academic master's degree.",
+        ar: "مؤهل مهني متقدم في تعليم اللغة العربية، وهو برنامج تدريب مهني وليس درجة ماجستير أكاديمية.",
+        zh: "阿拉伯语教学法方面的高级专业资格。",
+        es: "Cualificación profesional avanzada en pedagogía de la lengua árabe.",
+        fr: "Qualification professionnelle avancée en pédagogie de la langue arabe.",
+        tr: "Arapça dil pedagojisinde ileri düzey mesleki yeterlilik.",
+        ko: "아랍어 교수법 분야의 고급 전문 자격.",
+        ja: "アラビア語教授法における上級専門資格。",
+        id: "Kualifikasi profesional lanjutan dalam pedagogi bahasa Arab."
       }
     },
-    {
-      id: "cert4", year: "2017",
-      institution: { en: "American Institute of Professional Studies (A.I.P.S.)", ar: "المعهد الأمريكي للدراسات المهنية", zh: "美国职业研究学院（A.I.P.S.）", es: "Instituto Americano de Estudios Profesionales (A.I.P.S.)", fr: "Institut Américain d’Études Professionnelles (A.I.P.S.)", tr: "Amerikan Mesleki Araştırmalar Enstitüsü (A.I.P.S.)", ko: "미국직업연구학원 (A.I.P.S.)", ja: "アメリカ職業研究学院（A.I.P.S.）", id: "Institut Studi Profesional Amerika (A.I.P.S.)" },
-      location: { en: "United States", ar: "الولايات المتحدة", zh: "美国", es: "Estados Unidos", fr: "États-Unis", tr: "Amerika Birleşik Devletleri", ko: "미국", ja: "アメリカ合衆国", id: "Amerika Serikat" },
-      name: { en: "Mini MBA", ar: "ماجستير إدارة أعمال مصغّر (Mini MBA)", zh: "迷你工商管理硕士（Mini MBA）", es: "Mini MBA", fr: "Mini MBA", tr: "Mini MBA", ko: "미니 MBA", ja: "ミニMBA", id: "Mini MBA" },
-      category: { en: "Business Administration", ar: "إدارة الأعمال", zh: "工商管理", es: "Administración de Empresas", fr: "Administration des Affaires", tr: "İşletme Yönetimi", ko: "경영학", ja: "経営管理", id: "Administrasi Bisnis" },
-      description: {
-        en: "Professional business administration qualification covering fundamental management concepts and practical organizational skills.",
-        ar: "مؤهل مهني في إدارة الأعمال يغطي أساسيات الإدارة والمهارات التنظيمية التطبيقية.",
-        zh: "涵盖基础管理概念与实用组织技能的工商管理专业资格认证。",
-        es: "Cualificación profesional en administración de empresas que abarca los conceptos fundamentales de gestión y las competencias organizacionales prácticas.",
-        fr: "Qualification professionnelle en administration des affaires couvrant les concepts fondamentaux de gestion et les compétences organisationnelles pratiques.",
-        tr: "Temel yönetim kavramlarını ve uygulamalı organizasyonel becerileri kapsayan işletme yönetimi mesleki yeterliliği.",
-        ko: "기초 경영 개념과 실무 조직 기술을 다루는 경영학 전문 자격.",
-        ja: "基本的な経営概念と実践的な組織スキルを網羅する経営管理の専門資格。",
-        id: "Kualifikasi profesional administrasi bisnis yang mencakup konsep dasar manajemen dan keterampilan organisasi praktis."
-      }
-    },
-    {
-      id: "cert2", year: "2017",
-      institution: { en: "Cambridge Training College", ar: "كلية كامبريدج للتدريب", zh: "剑桥培训学院", es: "Escuela de Formación de Cambridge", fr: "Collège de Formation de Cambridge", tr: "Cambridge Eğitim Koleji", ko: "케임브리지 교육대학", ja: "ケンブリッジ研修カレッジ", id: "Kolese Pelatihan Cambridge" },
-      location: { en: "United Kingdom", ar: "المملكة المتحدة", zh: "英国", es: "Reino Unido", fr: "Royaume-Uni", tr: "Birleşik Krallık", ko: "영국", ja: "イギリス", id: "Britania Raya" },
-      name: { en: "Advanced Training Diploma in Business Administration", ar: "دبلومة متقدمة في إدارة الأعمال", zh: "工商管理高级培训文凭", es: "Diplomado Avanzado en Administración de Empresas", fr: "Diplôme Avancé en Administration des Affaires", tr: "İşletme Yönetiminde İleri Eğitim Diploması", ko: "경영학 고급 연수 디플로마", ja: "経営管理上級研修ディプロマ", id: "Diploma Pelatihan Lanjutan Administrasi Bisnis" },
-      description: {
-        en: "Advanced professional training focused on business administration concepts and practical management skills.",
-        ar: "تدريب مهني متقدم يركّز على مفاهيم إدارة الأعمال والمهارات الإدارية التطبيقية.",
-        zh: "专注于工商管理概念和实用管理技能的高级专业培训。",
-        es: "Formación profesional avanzada centrada en los conceptos de administración de empresas y habilidades de gestión práctica.",
-        fr: "Formation professionnelle avancée axée sur les concepts d'administration des affaires et les compétences managériales pratiques.",
-        tr: "İşletme yönetimi kavramlarına ve uygulamalı yönetim becerilerine odaklanan ileri düzey mesleki eğitim.",
-        ko: "경영학 개념과 실무 관리 기술에 초점을 맞춘 고급 전문 교육.",
-        ja: "経営管理の概念と実践的なマネジメントスキルに焦点を当てた上級専門研修。",
-        id: "Pelatihan profesional lanjutan yang berfokus pada konsep administrasi bisnis dan keterampilan manajemen praktis."
-      }
-    },
-    {
-      id: "cert3", year: "2017",
-      institution: { en: "IBS Training Academy", ar: "أكاديمية IBS للتدريب", zh: "IBS培训学院", es: "Academia de Formación IBS", fr: "Académie de Formation IBS", tr: "IBS Eğitim Akademisi", ko: "IBS 교육 아카데미", ja: "IBS研修アカデミー", id: "Akademi Pelatihan IBS" },
-      location: { en: "Cairo, Egypt", ar: "القاهرة، مصر", zh: "埃及开罗", es: "El Cairo, Egipto", fr: "Le Caire, Égypte", tr: "Kahire, Mısır", ko: "이집트 카이로", ja: "エジプト・カイロ", id: "Kairo, Mesir" },
-      name: { en: "Management & Business Skills Training", ar: "التدريب على مهارات الإدارة والأعمال", zh: "管理与商务技能培训", es: "Formación en Gestión y Habilidades Empresariales", fr: "Formation en Gestion et Compétences Professionnelles", tr: "Yönetim ve İş Becerileri Eğitimi", ko: "경영 및 비즈니스 실무 교육", ja: "経営・ビジネススキル研修", id: "Pelatihan Manajemen dan Keterampilan Bisnis" },
-      description: {
-        en: "A series of professional development courses covering strategic planning, project management, human resources, marketing, sales, and financial management fundamentals.",
-        ar: "سلسلة من دورات التطوير المهني تشمل التخطيط الاستراتيجي وإدارة المشاريع والموارد البشرية والتسويق والمبيعات وأساسيات الإدارة المالية.",
-        zh: "一系列职业发展课程，涵盖战略规划、项目管理、人力资源、市场营销、销售及财务管理基础。",
-        es: "Una serie de cursos de desarrollo profesional que abarcan planificación estratégica, gestión de proyectos, recursos humanos, marketing, ventas y fundamentos de gestión financiera.",
-        fr: "Une série de formations en développement professionnel couvrant la planification stratégique, la gestion de projet, les ressources humaines, le marketing, les ventes et les fondamentaux de la gestion financière.",
-        tr: "Stratejik planlama, proje yönetimi, insan kaynakları, pazarlama, satış ve finansal yönetim temellerini kapsayan bir dizi mesleki gelişim kursu.",
-        ko: "전략 기획, 프로젝트 관리, 인사 관리, 마케팅, 영업 및 재무 관리 기초를 다루는 일련의 전문성 개발 과정.",
-        ja: "戦略立案、プロジェクト管理、人事、マーケティング、営業、財務管理の基礎を網羅する一連の専門能力開発コース。",
-        id: "Serangkaian kursus pengembangan profesional yang mencakup perencanaan strategis, manajemen proyek, sumber daya manusia, pemasaran, penjualan, dan dasar-dasar manajemen keuangan."
-      },
-      courses: {
-        en: ["Strategic Planning", "Project Management", "Human Resources Management", "Marketing & Sales Management", "Financial Management"],
-        ar: ["التخطيط الاستراتيجي", "إدارة المشاريع", "إدارة الموارد البشرية", "إدارة التسويق والمبيعات", "الإدارة المالية"],
-        zh: ["战略规划", "项目管理", "人力资源管理", "市场营销与销售管理", "财务管理"],
-        es: ["Planificación Estratégica", "Gestión de Proyectos", "Gestión de Recursos Humanos", "Gestión de Marketing y Ventas", "Gestión Financiera"],
-        fr: ["Planification Stratégique", "Gestion de Projet", "Gestion des Ressources Humaines", "Marketing et Gestion des Ventes", "Gestion Financière"],
-        tr: ["Stratejik Planlama", "Proje Yönetimi", "İnsan Kaynakları Yönetimi", "Pazarlama ve Satış Yönetimi", "Finansal Yönetim"],
-        ko: ["전략 기획", "프로젝트 관리", "인사 관리", "마케팅 및 영업 관리", "재무 관리"],
-        ja: ["戦略立案", "プロジェクト管理", "人事管理", "マーケティング・営業管理", "財務管理"],
-        id: ["Perencanaan Strategis", "Manajemen Proyek", "Manajemen Sumber Daya Manusia", "Manajemen Pemasaran dan Penjualan", "Manajemen Keuangan"]
-      }
-    }
   ],
 
   // =======================================================================
@@ -1125,8 +984,8 @@ const CV_DATA = {
   // =======================================================================
   footer: {
     tagline: {
-      en: "International Arabic language educator — bridging teaching, culture, and technology.",
-      ar: "مدرس لغة عربية دولي — يجمع بين التعليم والثقافة والتكنولوجيا.",
+      en: "Arabic language educator for non-native speakers — bridging teaching, culture, and technology.",
+      ar: "معلّم لغة عربية للناطقين بغيرها — يجمع بين التعليم والثقافة والتكنولوجيا.",
       zh: "国际阿拉伯语教育专家 — 融合教学、文化与科技。",
       es: "Educador internacional de lengua árabe — uniendo enseñanza, cultura y tecnología.",
       fr: "Enseignant international de langue arabe — à la croisée de l'enseignement, de la culture et de la technologie.",
